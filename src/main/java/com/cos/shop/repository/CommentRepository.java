@@ -3,8 +3,8 @@ package com.cos.shop.repository;
 import java.util.List;
 
 import com.cos.shop.dto.RequestUserJoinDto;
-import com.cos.shop.model.Board;
-import com.cos.shop.model.User;
+import com.cos.shop.model.board.Board;
+import com.cos.shop.model.user.User;
 
 public interface CommentRepository {
 	// 전체보기

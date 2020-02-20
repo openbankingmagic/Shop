@@ -7,11 +7,18 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller 
 public class UserController {
 	
-	@GetMapping("/")
-	public String index() {
-		return "/user";
-	}
-	
-	
 
+	@GetMapping("/user/join")
+	public String join() {
+		return "/user/join";
+	}
+	@GetMapping("/user/login")
+	public String login() {
+		return "/user/login";
+	}
+
+	@GetMapping("/user/profile")
+	public String profile() {
+		return "/user/profile";
+	}
 }
